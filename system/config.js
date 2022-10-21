@@ -1,5 +1,5 @@
 // Owner number
-global.owner = '6285807264974'
+global.owner = '6283181341902'
 // Owner name
 global.owner_name = 'Hanya Creator'
 // Maximum upload file size limit (Default : 50 MB)
