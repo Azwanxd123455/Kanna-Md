@@ -7,20 +7,20 @@ exports.run = {
       isPrefix
    }) => {
       try {
-      let captions = ` ❑  *I N F O - B O T*\n\n◦  Sistem otomatis (WhatsApp Bot) yang dapat membantu untuk melakukan sesuatu, mencari dan mendapatkan data/informasi hanya melalui WhatsApp.\n\n❑ *N O T E* \n\n◦   Gunakan bot di private message agar bot merespon dengan cepat, \n\n◦  Beri jeda  yah kak ｡⁠◕⁠‿⁠◕⁠｡\nSource code: https://youtu.be/MGDsPKQFVAo
- ❑  *U S E R - I N F O*
+      let captions = `An automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : PostgreSQL\n◦ *Library* : Baileys v4.3.0\n◦ *Rest API* : https://api.neoxr.my.id\n◦ *Source* : https://github.com/neoxr/neoxr-bot\n\nIf you find an error or want to upgrade premium plan contact the owner.\n\n
+乂  *U S E R - I N F O*
       
 ◦  ${isPrefix}limit 
 ◦  ${isPrefix}me 
 
-❑  *G R O U P*
+乂  *G R O U P*
 
 ◦  ${isPrefix}afk *reason (optional)*
 ◦  ${isPrefix}ava *mention or reply*
 ◦  ${isPrefix}delete *reply chat*
 ◦  ${isPrefix}q *reply chat*
 
-❑  *C O N V E R T E R*
+乂  *C O N V E R T E R*
 
 ◦  ${isPrefix}emojimix *emoji + emoji*
 ◦  ${isPrefix}sticker *reply media*
@@ -30,7 +30,7 @@ exports.run = {
 ◦  ${isPrefix}tomp3 *reply media*
 ◦  ${isPrefix}tovn *reply media*
 
-❑  *D O W N L O A D E R*
+乂  *D O W N L O A D E R*
 
 ◦  ${isPrefix}apk *query*
 ◦  ${isPrefix}fb *link*
@@ -49,7 +49,7 @@ exports.run = {
 ◦  ${isPrefix}ytmp3 *link*
 ◦  ${isPrefix}ytmp4 *link*
 
-❑  *U T I L I T I E S*
+乂  *U T I L I T I E S*
 
 ◦  ${isPrefix}brainly *question*
 ◦  ${isPrefix}halah *text or reply chat*
@@ -62,7 +62,7 @@ exports.run = {
 ◦  ${isPrefix}server 
 ◦  ${isPrefix}wallpaper *query*
 
-❑  *T E X T - M A K E R*
+乂  *T E X T - M A K E R*
 
 ◦  ${isPrefix}blackpink *text*
 ◦  ${isPrefix}blood *text*
@@ -76,7 +76,7 @@ exports.run = {
 ◦  ${isPrefix}papercut *text*
 ◦  ${isPrefix}slice *text*
 
-❑  *I M A G E - E F F E C T*
+乂  *I M A G E - E F F E C T*
 
 ◦  ${isPrefix}alien *reply foto*
 ◦  ${isPrefix}brick *reply foto*
@@ -93,7 +93,7 @@ exports.run = {
 ◦  ${isPrefix}splash *reply foto*
 ◦  ${isPrefix}staco *reply foto*
 
-❑  *A D M I N - T O O L S*
+乂  *A D M I N - T O O L S*
 
 ◦  ${isPrefix}antidelete *on / off*
 ◦  ${isPrefix}antilink *on / off*
@@ -114,7 +114,7 @@ exports.run = {
 ◦  ${isPrefix}setwelcome *text*
 ◦  ${isPrefix}welcome *on / off*
 
-❑  *O W N E R*
+乂  *O W N E R*
 
 ◦  ${isPrefix}-cmdstic *text / command*
 ◦  ${isPrefix}-mimic *mention or reply*
@@ -158,7 +158,7 @@ exports.run = {
 ◦  ${isPrefix}unblock *mention or reply*
 ◦  ${isPrefix}update 
 
-❑  *S P E C I A L*
+乂  *S P E C I A L*
 
 ◦  ${isPrefix}botstat 
 ◦  ${isPrefix}checkapi 
@@ -168,15 +168,11 @@ exports.run = {
 ◦  ${isPrefix}list 
 ◦  ${isPrefix}owner 
 ◦  ${isPrefix}premium 
-◦  ${isPrefix}runtime
-❑ *T Q - T O*
-◦ Swift
-◦ FARUQOFC`
+◦  ${isPrefix}runtime`
       client.sendMessageModify(m.chat, captions, m, {
-               title: 'Kanna bot',
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d5c31ad3dfeb93c67171c.jpg'),
-               url: ''
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/f8a923158032e0e6b6eb9.jpg'),
+               url: 'https://chat.whatsapp.com/JjwfWvDBTQS0j9fAUOyLMA'
             })
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
