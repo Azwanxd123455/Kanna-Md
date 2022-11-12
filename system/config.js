@@ -1,5 +1,5 @@
 // Owner number
-global.owner = '6283181341902'
+global.owner = '6285882427631'
 // Owner name
 global.owner_name = 'Hanya Creator'
 // Maximum upload file size limit (Default : 50 MB)
@@ -24,7 +24,7 @@ global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Source version
 global.version = '5.4.7',
 // Footer text
-global.footer = 'Kanna bot'
+global.footer = 'wanzz bot'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
